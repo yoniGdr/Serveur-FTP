@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: org.exemple.demo.FTPServerTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.01 sec <<< FAILURE!
+testFTPServerConstructor(org.exemple.demo.FTPServerTest)  Time elapsed: 0.005 sec  <<< ERROR!
+java.net.SocketException: Socket is not connected
+	at java.base/java.net.Socket.getInputStream(Socket.java:929)
+	at org.exemple.demo.FTPServer.<init>(FTPServer.java:28)
+	at org.exemple.demo.FTPServerTest.testFTPServerConstructor(FTPServerTest.java:16)
+
